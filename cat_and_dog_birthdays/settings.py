@@ -54,6 +54,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "*",
 ]
 
 ROOT_URLCONF = 'cat_and_dog_birthdays.urls'
