@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cat-and-dog-birthdays"
+version = "0.1.0"
+description = ""
+authors = ["jgoteam <j3liang@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django-ninja = "^1.2.2"
+django-cors-headers = "^4.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
